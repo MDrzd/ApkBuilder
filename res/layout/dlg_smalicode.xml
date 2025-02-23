@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    android:padding="4.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+    <Spinner
+        android:id="@id/spinner_codename"
+        android:background="@drawable/selector_slim_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:text="@string/sample_code" />
+    <EditText
+        android:textSize="12.0sp"
+        android:id="@id/et_samplecode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minLines="6"
+        android:ems="10"
+        android:inputType="textMultiLine|textNoSuggestions" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@id/btn_copy"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@android:string/copy"
+            android:layout_weight="1.0"
+            style="@style/button" />
+        <Button
+            android:id="@id/btn_close"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_weight="1.0"
+            style="@style/button" />
+    </LinearLayout>
+</LinearLayout>

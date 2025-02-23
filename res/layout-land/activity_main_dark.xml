@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#ff111111"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="200.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/apkbuilder_logo" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:fillViewport="true"
+                android:layout_weight="1.0">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="20.0sp"
+                        android:textColor="#ffffffff"
+                        android:gravity="center"
+                        android:id="@id/tv_new_project"
+                        android:background="@drawable/textview_bg_dark"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50.0dip"
+                        android:layout_marginLeft="32.0dip"
+                        android:layout_marginRight="32.0dip"
+                        android:layout_marginBottom="24.0dip"
+                        android:text="@string/new_project"
+                        android:singleLine="true" />
+                    <TextView
+                        android:textSize="20.0sp"
+                        android:textColor="#ffffffff"
+                        android:gravity="center"
+                        android:id="@id/tv_open_project"
+                        android:background="@drawable/textview_bg_dark"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50.0dip"
+                        android:layout_marginLeft="32.0dip"
+                        android:layout_marginRight="32.0dip"
+                        android:layout_marginBottom="24.0dip"
+                        android:text="@string/open_project"
+                        android:singleLine="true" />
+                    <TextView
+                        android:textSize="20.0sp"
+                        android:textColor="#ffffffff"
+                        android:gravity="center"
+                        android:id="@id/tv_term"
+                        android:background="@drawable/textview_bg_dark"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50.0dip"
+                        android:layout_marginLeft="32.0dip"
+                        android:layout_marginRight="32.0dip"
+                        android:layout_marginBottom="24.0dip"
+                        android:text="@string/terminal"
+                        android:singleLine="true"
+                        android:drawableLeft="@drawable/ic_terminal" />
+                    <TextView
+                        android:textSize="20.0sp"
+                        android:textColor="#ffffffff"
+                        android:gravity="center"
+                        android:id="@id/tv_exit"
+                        android:background="@drawable/textview_bg_dark"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50.0dip"
+                        android:layout_marginLeft="32.0dip"
+                        android:layout_marginRight="32.0dip"
+                        android:text="@string/exit"
+                        android:singleLine="true"
+                        android:drawableLeft="@drawable/ic_exit" />
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/adViewLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:layout_gravity="start"
+        android:id="@id/slider_list"
+        android:background="@color/lightblack"
+        android:paddingTop="16.0dip"
+        android:layout_width="200.0dip"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0dip"
+        android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

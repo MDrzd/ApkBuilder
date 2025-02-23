@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:key="ROOT"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/apk_building"
+        android:key="ApkBuilding">
+        <com.gmail.heagoo.apkeditor.KeyListPreference
+            android:entries="@array/signer_key"
+            android:title="@string/sign_apk_with"
+            android:key="SignApkWith"
+            android:summary="@string/sign_apk_with_summary"
+            android:entryValues="@array/signer_value_dont_translate" />
+        <Preference
+            android:title="@string/build_script"
+            android:key="BuildScript"
+            android:summary="@string/edit_build_script_summary" />
+        <EditTextPreference
+            android:digits="\ 0123456789"
+            android:title="@string/classes2dex_timeout"
+            android:key="DexTimeout"
+            android:summary="@string/classes2dex_timeout_desc"
+            android:defaultValue="15"
+            android:dialogMessage="@string/input_timeout_mins"
+            android:inputType="numberDecimal" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/image_downloader"
+        android:key="ImageDownloader">
+        <EditTextPreference
+            android:title="@string/start_url"
+            android:key="StartURL"
+            android:summary="@string/start_url_summary"
+            android:defaultValue="https://icons8.com"
+            android:dialogMessage="@string/input_start_url"
+            android:inputType="text" />
+    </PreferenceCategory>
+</PreferenceScreen>

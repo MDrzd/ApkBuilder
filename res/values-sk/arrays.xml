@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="control_keys_short_names">
+        <item>Gulička</item>
+        <item>\@</item>
+        <item>Ľavý Alt</item>
+        <item>Pravý Alt</item>
+        <item>Hlasitosť+</item>
+        <item>Hlasitosť-</item>
+        <item>Fotoaparát</item>
+        <item>Žiadny</item>
+    </string-array>
+    <string-array name="decode_dir_key">
+        <item>Interný slovník</item>
+        <item>Vlastný slovník</item>
+    </string-array>
+    <string-array name="entries_actionbar_preference">
+        <item>Vždy zobraziť panel akcií</item>
+        <item>Skryť panel akcií (pre zobrazenie sa dotknite vrchu obrazovky alebo tlačidla Ponuka)</item>
+    </string-array>
+    <string-array name="entries_backaction_preference">
+        <item>Zavrieť všetky okná terminálu</item>
+        <item>Zavrieť iba aktuálne okno terminálu</item>
+        <item>Zavrieť aktivitu, ponechať reláciu bežiacou</item>
+        <item>Odoslať ESC do terminálu</item>
+        <item>Odoslať TAB do terminálu</item>
+    </string-array>
+    <string-array name="entries_color_preference">
+        <item>Čierny text na bbielom</item>
+        <item>Biely text na čiernom</item>
+        <item>Biely text na modrom</item>
+        <item>Zelený text na čiernom</item>
+        <item>Jantárový text na čiernom</item>
+        <item>Červený text na čiernom</item>
+        <item>Holo modrý text na čiernom</item>
+        <item>Solarizovaná svetlá</item>
+        <item>Solarizovaná tmavá</item>
+        <item>Linuxová konzola</item>
+    </string-array>
+    <string-array name="entries_controlkey_preference">
+        <item>Gulička</item>
+        <item>Kláves @</item>
+        <item>Kláves Ľavý Alt</item>
+        <item>Kláves Pravý Alt</item>
+        <item>Kláves Hlasitosť+</item>
+        <item>Kláves Hlasitosť-</item>
+        <item>Kláves Fotoaparát</item>
+        <item>Žiadny</item>
+    </string-array>
+    <string-array name="entries_cursorblink_preference">
+        <item>Neblikajúci kurzor</item>
+        <item>Blikajúci kurzor</item>
+    </string-array>
+    <string-array name="entries_cursorstyle_preference">
+        <item>Obdĺžnikový</item>
+        <item>Podčiarknutý</item>
+        <item>Zvislá čiara</item>
+    </string-array>
+    <string-array name="entries_fnkey_preference">
+        <item>Gulička</item>
+        <item>Kláves @</item>
+        <item>Kláves Ľavý Alt</item>
+        <item>Kláves Pravý Alt</item>
+        <item>Kláves Hlasitosť+</item>
+        <item>Kláves Hlasitosť-</item>
+        <item>Kláves Fotoaparát</item>
+        <item>Žiadny</item>
+    </string-array>
+    <string-array name="entries_fontsize_preference">
+        <item>4 x 8 pixelov</item>
+        <item>6 bodov</item>
+        <item>7 bodov</item>
+        <item>8 bodov</item>
+        <item>9 bodov</item>
+        <item>10 bodov</item>
+        <item>12 bodov</item>
+        <item>14 bodov</item>
+        <item>16 bodov</item>
+        <item>20 bodov</item>
+        <item>24 bodov</item>
+        <item>28 bodov</item>
+        <item>32 bodov</item>
+        <item>36 bodov</item>
+        <item>42 bodov</item>
+        <item>48 bodov</item>
+        <item>64 bodov</item>
+        <item>72 bodov</item>
+        <item>96 bodov</item>
+        <item>144 bodov</item>
+        <item>288 bodov</item>
+    </string-array>
+    <string-array name="entries_ime_preference">
+        <item>Po znakoch</item>
+        <item>Po slovách</item>
+    </string-array>
+    <string-array name="entries_orientation_preference">
+        <item>Automatická</item>
+        <item>Na šírku</item>
+        <item>Na výšku</item>
+    </string-array>
+    <string-array name="entries_statusbar_preference">
+        <item>Zobraziť stavový riadok</item>
+        <item>Skryť stavový riadok</item>
+    </string-array>
+    <string-array name="fileTypeAudio">
+        <item>.mp3</item>
+        <item>.wav</item>
+        <item>.ogg</item>
+        <item>.midi</item>
+    </string-array>
+    <string-array name="fileTypeExcel">
+        <item>.xls</item>
+        <item>.xlsx</item>
+    </string-array>
+    <string-array name="fileTypeImage">
+        <item>.png</item>
+        <item>.gif</item>
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.bmp</item>
+    </string-array>
+    <string-array name="fileTypePPT">
+        <item>.ppt</item>
+        <item>.pptx</item>
+    </string-array>
+    <string-array name="fileTypePackage">
+        <item>.jar</item>
+        <item>.zip</item>
+        <item>.rar</item>
+        <item>.gz</item>
+        <item>.apk</item>
+        <item>.img</item>
+    </string-array>
+    <string-array name="fileTypePdf">
+        <item>.pdf</item>
+    </string-array>
+    <string-array name="fileTypeText">
+        <item>.txt</item>
+        <item>.java</item>
+        <item>.c</item>
+        <item>.cpp</item>
+        <item>.py</item>
+        <item>.xml</item>
+        <item>.json</item>
+        <item>.log</item>
+    </string-array>
+    <string-array name="fileTypeVideo">
+        <item>.mp4</item>
+        <item>.rmvb</item>
+        <item>.avi</item>
+        <item>.flv</item>
+    </string-array>
+    <string-array name="fileTypeWebText">
+        <item>.htm</item>
+        <item>.html</item>
+        <item>.php</item>
+        <item>.jsp</item>
+    </string-array>
+    <string-array name="fileTypeWord">
+        <item>.doc</item>
+        <item>.docx</item>
+    </string-array>
+    <string-array name="file_extract_rename_key">
+        <item>Auto (pridá číselnú príponu)</item>
+        <item>Prepísať</item>
+    </string-array>
+    <string-array name="fn_keys_short_names">
+        <item>Gulička</item>
+        <item>\@</item>
+        <item>Ľavý Alt</item>
+        <item>Pravý Alt</item>
+        <item>Hlasitosť+</item>
+        <item>Hlasitosť-</item>
+        <item>Fotoaparát</item>
+        <item>Žiadny</item>
+    </string-array>
+    <string-array name="language_key">
+        <item>Predvolené</item>
+        <item>Arabčina</item>
+        <item>Čínština</item>
+        <item>Čestina</item>
+        <item>Holandčina</item>
+        <item>Angličtina</item>
+        <item>Francúzština</item>
+        <item>Nemčina</item>
+        <item>Hebrejčina</item>
+        <item>Maďarčina</item>
+        <item>Perzština</item>
+        <item>Poľština</item>
+        <item>Portugalčina</item>
+        <item>Ruština</item>
+        <item>Slovenčina</item>
+        <item>Španielčina</item>
+        <item>Turečtina</item>
+        <item>Ukrajinčina</item>
+        <item>Vietnamčina</item>
+    </string-array>
+    <string-array name="output_apkname_key">
+        <item>{package name}_[ne]podpisane.apk</item>
+        <item>gen_[ne]podpisane.apk</item>
+        <item>{app name}_[ne]podpisane.apk</item>
+    </string-array>
+    <string-array name="signer_key">
+        <item>testovací kľúč</item>
+        <item>kľúč vytvoril APK Builder</item>
+        <item>vlastný kľúč</item>
+    </string-array>
+    <string-array name="theme_key">
+        <item>Svetlá téma</item>
+        <item>Tmavá téma 1</item>
+        <item>Tmavá téma 2</item>
+    </string-array>
+</resources>

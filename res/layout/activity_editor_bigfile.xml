@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/header_layout"
+        android:background="@color/littleblue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@id/menu_previous"
+            android:background="@drawable/selector_menu_light2"
+            android:layout_width="48.0dip"
+            android:layout_height="40.0dip">
+            <ImageView
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/appdm_previous"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/lightblue"
+                android:id="@id/filename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+            <RelativeLayout
+                android:id="@id/menu_methods"
+                android:background="@drawable/selector_menu_light2"
+                android:layout_width="48.0dip"
+                android:layout_height="40.0dip">
+                <ImageView
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:src="@drawable/listfile_blue"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@id/menu_next"
+            android:background="@drawable/selector_menu_light2"
+            android:layout_width="48.0dip"
+            android:layout_height="40.0dip">
+            <ImageView
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:src="@drawable/appdm_next"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/center_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.gmail.heagoo.apkeditor.ui.LayoutObListView
+                android:scrollbarSize="2.0dip"
+                android:scrollbarThumbVertical="@drawable/coloritem_cc"
+                android:id="@id/text_list"
+                android:scrollbars="vertical"
+                android:descendantFocusability="beforeDescendants"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:dividerHeight="0.0px"
+                android:layout_weight="1.0" />
+            <include
+                layout="@layout/included_editor_menu" />
+        </LinearLayout>
+        <include
+            layout="@layout/included_find_panel" />
+    </FrameLayout>
+</LinearLayout>

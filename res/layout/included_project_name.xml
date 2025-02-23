@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/project_name_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:textSize="14.0sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/application_name" />
+        <EditText
+            android:textSize="14.0sp"
+            android:id="@id/et_appname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true" />
+        <TextView
+            android:textSize="14.0sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/package_name" />
+        <EditText
+            android:textSize="14.0sp"
+            android:id="@id/et_pkgname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true" />
+        <TextView
+            android:textSize="14.0sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/project_location" />
+        <EditText
+            android:textSize="14.0sp"
+            android:id="@id/et_prjlocation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true" />
+        <Button
+            android:id="@id/btn_browse"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/three_dot"
+            style="@style/button" />
+    </LinearLayout>
+</ScrollView>

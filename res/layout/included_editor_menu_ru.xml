@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="#ff111111"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@id/switch_view"
+        android:background="@drawable/selector_iv_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/array_switch" />
+    <View
+        android:background="#ff808080"
+        android:layout_width="1.0px"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <HorizontalScrollView
+            android:id="@id/special_char_layout"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/special_char_container"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/menu_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/saveBtn"
+                android:background="@drawable/t1046_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="2.0dip"
+                android:src="@drawable/edit_save"
+                android:scaleType="center"
+                android:layout_weight="1.0"
+                android:contentDescription="@string/save" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/copyBtn"
+                android:background="@drawable/t1046_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginRight="2.0dip"
+                android:src="@drawable/edit_copy"
+                android:scaleType="center"
+                android:layout_weight="1.0"
+                android:contentDescription="@android:string/copy" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/pasteBtn"
+                android:background="@drawable/t1046_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginRight="2.0dip"
+                android:src="@drawable/ic_clipboard_white"
+                android:scaleType="center"
+                android:layout_weight="1.0"
+                android:contentDescription="@android:string/paste" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/openFindBtn"
+                android:background="@drawable/t1046_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginRight="2.0dip"
+                android:src="@drawable/edit_find"
+                android:scaleType="center"
+                android:layout_weight="1.0"
+                android:contentDescription="@string/find_replace" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/moreBtn"
+                android:background="@drawable/t1046_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2.0dip"
+                android:src="@drawable/ic_toolbar_more"
+                android:scaleType="center"
+                android:layout_weight="1.0"
+                android:contentDescription="@string/more" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

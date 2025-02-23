@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:compileSdkVersion="28"
+    android:compileSdkVersionCodename="9"
+    package="com.gmail.heagoo.apkbuilder"
+    platformBuildVersionCode="11"
+    platformBuildVersionName="1.1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Mengizinkan aplikasi menulis konten penyimpanan bersama Anda. -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Mengizinkan aplikasi meminta pemasangan paket. -->
+    <uses-permission
+        android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- Memungkinkan aplikasi membuat soket jaringan dan menggunakan protokol jaringan khusus. Browser dan aplikasi lain menyediakan sarana untuk mengirim data ke internet sehingga izin ini tidak diperlukan untuk mengirim data ke internet. -->
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <!-- Mengizinkan apl mencegah ponsel tidur. -->
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK" />
+    <!-- Mengizinkan aplikasi membaca konten penyimpanan bersama Anda. -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@drawable/apk_builder"
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <activity
+            android:label="@string/app_name"
+            android:name="com.gmail.heagoo.apkeditor.MainActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.ApkProjectActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.ApkComposeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.HelpActivity" />
+        <activity
+            android:label="@string/app_name"
+            android:name="com.gmail.heagoo.apkeditor.SettingActivity" />
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.SettingEditorActivity" />
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.TextEditNormalActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.TextEditBigActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.ColorXmlActivity" />
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.EditorHelpActivity" />
+        <activity
+            android:theme="@style/LightHeader"
+            android:name="com.gmail.heagoo.apkeditor.TutorialActivity" />
+        <service
+            android:name="com.gmail.heagoo.apkeditor.ApkComposeService" />
+        <service
+            android:name="com.gmail.heagoo.httpserver.HttpService" />
+        <activity
+            android:name="com.gmail.heagoo.neweditor.EditorActivity" />
+        <activity
+            android:name="com.gmail.heagoo.apkeditor.ImageDownloadActivity" />
+        <activity
+            android:name="com.gmail.heagoo.pngeditor.PngEditActivity" />
+        <activity
+            android:name="com.gmail.heagoo.pngeditor.HelpActivity" />
+        <activity
+            android:theme="@style/Theme"
+            android:name="jackpal.androidterm.Term"
+            android:launchMode="singleTask"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize">
+            <intent-filter>
+                <category
+                    android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/preferences"
+            android:name="jackpal.androidterm.TermPreferences" />
+        <activity
+            android:label="@string/window_list"
+            android:name="jackpal.androidterm.WindowList" />
+        <service
+            android:name="jackpal.androidterm.TermService">
+            <intent-filter>
+                <action
+                    android:name="jackpal.androidterm.action.START_TERM.v1" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.gmail.heagoo.apkbuilder.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="1" />
+    </application>
+</manifest>

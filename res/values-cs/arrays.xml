@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="control_keys_short_names">
+        <item>Kulička</item>
+        <item>\@</item>
+        <item>Levý Alt</item>
+        <item>Pravý Alt</item>
+        <item>Vol-Up</item>
+        <item>Vol-Dn</item>
+        <item>Kamera</item>
+        <item>Žádné</item>
+    </string-array>
+    <string-array name="entries_actionbar_preference">
+        <item>Vždy zobrazovat panel akcí</item>
+        <item>Skrývat panel akcí (zobrazit dotykem v horní části obrazovky, nebo tlačítkem menu)</item>
+    </string-array>
+    <string-array name="entries_backaction_preference">
+        <item>Zavřít všechna terminálová okna</item>
+        <item>Zavřít pouze toto terminálové okno</item>
+        <item>Zavřít terminál, ale dál poběží na pozadí</item>
+        <item>Poslat klávesu ESC do terminálu</item>
+        <item>Poslat klávesu TAB do terminálu</item>
+    </string-array>
+    <string-array name="entries_color_preference">
+        <item>Černý text na bílém podkladu</item>
+        <item>Bílý text na černém podkladu</item>
+        <item>Bílý text na modrém podkladu</item>
+        <item>Zelený text na černém podkladu</item>
+        <item>Žlutý text na černém podkladu</item>
+        <item>Červený text na černém podkladu</item>
+        <item>Solarized Light</item>
+        <item>Solarized Dark</item>
+        <item>Linux Console</item>
+    </string-array>
+    <string-array name="entries_controlkey_preference">
+        <item>Pohybové tlačítko</item>
+        <item>Tlačítko @</item>
+        <item>Levá klávesa ALT</item>
+        <item>Pravá klávesa ALT</item>
+        <item>Tlačítko hlasitosti dolů</item>
+        <item>Tlačítko hlasitosti nahoru</item>
+        <item>Tlačítko kamery</item>
+        <item>Žádné</item>
+    </string-array>
+    <string-array name="entries_cursorblink_preference">
+        <item>Neblikající kurzor :)</item>
+        <item>Blikající kurzor</item>
+    </string-array>
+    <string-array name="entries_cursorstyle_preference">
+        <item>Obdelník</item>
+        <item>Podtržítko</item>
+        <item>Svislá čára</item>
+    </string-array>
+    <string-array name="entries_fnkey_preference">
+        <item>Pohybové tlačítko</item>
+        <item>Tlačítko @</item>
+        <item>Levá klávesa ALT</item>
+        <item>Pravá klávesa ALT</item>
+        <item>Tlačítko hlasitosti dolů</item>
+        <item>Tlačítko hlasitosti nahoru</item>
+        <item>Tlačítko kamery</item>
+        <item>Žádné</item>
+    </string-array>
+    <string-array name="entries_fontsize_preference">
+        <item>4 x 8 pixelů</item>
+        <item>6 pt</item>
+        <item>7 pt</item>
+        <item>8 pt</item>
+        <item>9 pt</item>
+        <item>10 pt</item>
+        <item>12 pt</item>
+        <item>14 pt</item>
+        <item>16 pt</item>
+        <item>20 pt</item>
+        <item>24 pt</item>
+        <item>28 pt</item>
+        <item>32 pt</item>
+        <item>36 pt</item>
+        <item>42 pt</item>
+        <item>48 pt</item>
+        <item>64 pt</item>
+        <item>72 pt</item>
+        <item>96 pt</item>
+        <item>144 pt</item>
+        <item>288 pt</item>
+    </string-array>
+    <string-array name="entries_ime_preference">
+        <item>Zadávání po znacích</item>
+        <item>Zadávání po slovech</item>
+    </string-array>
+    <string-array name="entries_statusbar_preference">
+        <item>Zobrazovat stavový řádek</item>
+        <item>Nebrazovat stavový řádek</item>
+    </string-array>
+    <string-array name="fileTypeAudio">
+        <item>.mp3</item>
+        <item>.wav</item>
+        <item>.ogg</item>
+        <item>.midi</item>
+    </string-array>
+    <string-array name="fileTypeExcel">
+        <item>.xls</item>
+        <item>.xlsx</item>
+    </string-array>
+    <string-array name="fileTypeImage">
+        <item>.png</item>
+        <item>.gif</item>
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.bmp</item>
+    </string-array>
+    <string-array name="fileTypePPT">
+        <item>.ppt</item>
+        <item>.pptx</item>
+    </string-array>
+    <string-array name="fileTypePackage">
+        <item>.jar</item>
+        <item>.zip</item>
+        <item>.rar</item>
+        <item>.gz</item>
+        <item>.apk</item>
+        <item>.img</item>
+    </string-array>
+    <string-array name="fileTypePdf">
+        <item>.pdf</item>
+    </string-array>
+    <string-array name="fileTypeText">
+        <item>.txt</item>
+        <item>.java</item>
+        <item>.c</item>
+        <item>.cpp</item>
+        <item>.py</item>
+        <item>.xml</item>
+        <item>.json</item>
+        <item>.log</item>
+    </string-array>
+    <string-array name="fileTypeVideo">
+        <item>.mp4</item>
+        <item>.rmvb</item>
+        <item>.avi</item>
+        <item>.flv</item>
+    </string-array>
+    <string-array name="fileTypeWebText">
+        <item>.htm</item>
+        <item>.html</item>
+        <item>.php</item>
+        <item>.jsp</item>
+    </string-array>
+    <string-array name="fileTypeWord">
+        <item>.doc</item>
+        <item>.docx</item>
+    </string-array>
+    <string-array name="fn_keys_short_names">
+        <item>Kulička</item>
+        <item>\@</item>
+        <item>Levý Alt</item>
+        <item>Pravý Alt</item>
+        <item>Vol-Up</item>
+        <item>Vol-Dn</item>
+        <item>Kamera</item>
+        <item>Žádné</item>
+    </string-array>
+    <string-array name="signer_key">
+        <item>Testovací klíč</item>
+        <item>Klíč vytvořit APK Builder</item>
+        <item>Vlastní klíč</item>
+    </string-array>
+</resources>

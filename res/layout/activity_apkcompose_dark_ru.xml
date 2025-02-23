@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/layout_apk_composing"
+            android:background="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+                <ProgressBar
+                    android:id="@id/progressBar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:progressBarStyleLarge" />
+                <TextView
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="#ffffffff"
+                    android:gravity="center"
+                    android:id="@id/progress_tip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20.0dip"
+                    android:text="@string/in_progress" />
+            </LinearLayout>
+            <Button
+                android:id="@id/btn_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:text="@string/put_to_background"
+                style="@style/dark_button" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/layout_apk_composed"
+            android:background="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@id/result_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/succeed" />
+            <Button
+                android:textSize="16.0sp"
+                android:textColor="#ffffffff"
+                android:id="@id/btn_hide_warning"
+                android:background="@drawable/t1046_button"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hide_warnings" />
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+                <ListView
+                    android:id="@id/failed_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+                <ScrollView
+                    android:id="@id/succeeded_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:fillViewport="true">
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="#ffffffff"
+                            android:gravity="center_horizontal"
+                            android:id="@id/result"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12.0dip"
+                            android:layout_marginRight="12.0dip"
+                            android:textIsSelectable="true" />
+                    </LinearLayout>
+                </ScrollView>
+            </FrameLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/fix_layout"
+                android:padding="4.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@id/tv_fix_tip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fix_invalid_name_tip"
+                    android:layout_weight="1.0" />
+                <Button
+                    android:id="@id/btn_fix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40.0dip"
+                    android:text="@string/fix"
+                    style="@style/dark_button" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:id="@id/patch_dex_layout"
+                android:padding="4.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/tv_patch_tip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/patch_code_cache_tip"
+                    android:layout_weight="1.0" />
+                <Button
+                    android:id="@id/btn_patch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40.0dip"
+                    android:text="@string/patch"
+                    style="@style/button" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:layout_marginBottom="4.0dip">
+                <Button
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff"
+                    android:id="@id/btn_remove"
+                    android:background="@drawable/t1046_button"
+                    android:visibility="gone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="4.0dip"
+                    android:text="@string/remove"
+                    android:layout_weight="1.0" />
+                <Button
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff"
+                    android:id="@id/btn_copy_errmsg"
+                    android:background="@drawable/t1046_button"
+                    android:visibility="gone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="4.0dip"
+                    android:text="@string/copy_error_msg"
+                    android:layout_weight="2.0" />
+                <Button
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff"
+                    android:id="@id/btn_install"
+                    android:background="@drawable/t1046_button"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="4.0dip"
+                    android:text="@string/install"
+                    android:layout_weight="1.0" />
+                <Button
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff"
+                    android:id="@id/btn_close"
+                    android:background="@drawable/t1046_button"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="@string/close"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/adViewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

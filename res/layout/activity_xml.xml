@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/header_layout"
+        android:background="@color/littleblue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/lightblue"
+            android:layout_gravity="center"
+            android:id="@id/filename"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.0dip"
+            android:singleLine="true"
+            android:layout_weight="1.0" />
+        <ImageView
+            android:id="@id/imageView_html"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="4.0dip"
+            android:src="@drawable/html_blue" />
+        <ImageView
+            android:id="@id/imageView_edit"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="4.0dip"
+            android:src="@drawable/pencil" />
+        <ImageView
+            android:id="@id/imageView_list"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="4.0dip"
+            android:layout_marginRight="4.0dip"
+            android:src="@drawable/listfile" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/editView"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.gmail.heagoo.apkeditor.util.LineEditText
+                android:textSize="14.0sp"
+                android:id="@id/editText_xml"
+                android:background="@drawable/bg_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+        <ScrollView
+            android:id="@id/scrollView"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true">
+            <TableLayout
+                android:id="@id/xmlTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1" />
+        </ScrollView>
+        <WebView
+            android:id="@id/webView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@id/btn_save"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4.0dip"
+            android:text="@string/save"
+            android:layout_weight="0.5"
+            style="@style/button" />
+        <Button
+            android:id="@id/btn_close"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4.0dip"
+            android:text="@string/close"
+            android:layout_weight="0.5"
+            style="@style/button" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/adViewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="decode_dir_key">
+        <item>"Унутраны каталог "</item>
+        <item>"Адвольны каталог "</item>
+    </string-array>
+    <string-array name="file_extract_rename_key">
+        <item>Аўтаматычна (дадаваць суфікс ліку)</item>
+        <item>Перазапісаць</item>
+    </string-array>
+    <string-array name="language_key">
+        <item>"Прадвызначана "</item>
+        <item>"Арабская "</item>
+        <item>"Кітайская "</item>
+        <item>"Чэшская "</item>
+        <item>Галандская</item>
+        <item>"Англійская "</item>
+        <item>"Французская "</item>
+        <item>"Нямецкая "</item>
+        <item>Іўрыт</item>
+        <item>Венгерская</item>
+        <item>Персідская</item>
+        <item>Польская</item>
+        <item>"Партугальская "</item>
+        <item>"Расійская "</item>
+        <item>Славацкая</item>
+        <item>Іспанская</item>
+        <item>"Турэцкая "</item>
+        <item>Украінская</item>
+        <item>В’етнамская</item>
+    </string-array>
+    <string-array name="signer_key">
+        <item>testkey</item>
+        <item>Ключ створаны ў APK Builder</item>
+        <item>custom key</item>
+    </string-array>
+    <string-array name="theme_key">
+        <item>Светлая тэма</item>
+        <item>Цёмная тэма 1</item>
+        <item>Цёмная тэма 2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="6.0dip"
+    android:paddingTop="5.0dip"
+    android:paddingRight="6.0dip"
+    android:paddingBottom="5.0dip"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/app_icon"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="11.0dip"
+        android:scaleType="fitCenter"
+        android:contentDescription="@android:string/no" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <TextView
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/darkblue"
+            android:ellipsize="marquee"
+            android:id="@id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2.0dip"
+            android:singleLine="true" />
+        <TextView
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ff666666"
+            android:layout_gravity="center_vertical"
+            android:id="@id/app_desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-4.0dip" />
+        <TextView
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ff666666"
+            android:layout_gravity="center_vertical"
+            android:id="@id/app_desc2"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2.0dip" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@id/menu_delete"
+        android:background="@drawable/selector_menu_light"
+        android:paddingTop="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:visibility="gone"
+        android:layout_width="40.0dip"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:src="@drawable/ic_delete"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

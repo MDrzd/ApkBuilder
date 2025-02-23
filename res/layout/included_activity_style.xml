@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/activity_style_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textColor="@color/lightblue"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4.0dip"
+        android:text="@string/add_activity" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4.0dip">
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/tv_empty_activity"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_activity"
+                    android:drawableTop="@drawable/activity_empty"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/tv_setting_activity"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_activity"
+                    android:drawableTop="@drawable/activity_setting"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4.0dip">
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/tv_list_activity"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/list_activity"
+                    android:drawableTop="@drawable/activity_list"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/tv_flashlight_activity"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flashlight"
+                    android:drawableTop="@drawable/activity_flashlight"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4.0dip">
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/tv_webwrapper_example"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/web_wrapper"
+                    android:drawableTop="@drawable/activity_webwrapper"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/tv_livewp_example"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/live_wallpaper"
+                    android:drawableTop="@drawable/activity_livewp"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4.0dip">
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/tv_sqlite_demo"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sqlite_demo"
+                    android:drawableTop="@drawable/activity_sqlitedemo"
+                    android:layout_weight="1.0" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@id/tv_todo"
+                    android:visibility="invisible"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/live_wallpaper"
+                    android:drawableTop="@drawable/activity_livewp"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

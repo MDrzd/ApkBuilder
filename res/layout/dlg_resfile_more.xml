@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="4.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48.0dip"
+            android:text="@string/name"
+            android:inputType="textNoSuggestions" />
+        <EditText
+            android:textSize="14.0sp"
+            android:id="@id/filename"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+        <Button
+            android:id="@id/btn_rename"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:text="@string/rename"
+            style="@style/button" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48.0dip"
+            android:text="@string/path" />
+        <EditText
+            android:textSize="14.0sp"
+            android:id="@id/filepath"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48.0dip"
+            android:text="@string/size" />
+        <TextView
+            android:textSize="14.0sp"
+            android:id="@id/filesize"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:layout_weight="1.0" />
+        <Button
+            android:id="@id/btn_extract"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:text="@string/extract"
+            style="@style/button" />
+    </LinearLayout>
+</LinearLayout>

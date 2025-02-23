@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/header_layout"
+        android:background="@color/littleblue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="48.0dip"
+            android:layout_height="40.0dip" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/lightblue"
+                android:id="@id/filename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+            <RelativeLayout
+                android:id="@id/menu_methods"
+                android:background="@drawable/selector_menu_light2"
+                android:layout_width="48.0dip"
+                android:layout_height="40.0dip">
+                <ImageView
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:src="@drawable/listfile_blue"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="48.0dip"
+            android:layout_height="40.0dip" />
+    </LinearLayout>
+    <WebView
+        android:id="@id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#ff111111"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/editorBtn"
+            android:background="@drawable/selector_iv_button"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/edit_editor"
+            android:scaleType="center"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

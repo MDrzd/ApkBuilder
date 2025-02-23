@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/normal_action_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pngeditor_save_white" />
+            <ImageView
+                android:id="@id/btn_save"
+                android:background="@drawable/pngeditor_clickable_img_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="?android:actionBarSize"
+                android:src="@drawable/pngeditor_save_white" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/edit_action_layout"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@id/btn_confirm"
+                android:background="@drawable/pngeditor_clickable_img_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="?android:actionBarSize"
+                android:src="@drawable/pngeditor_check" />
+            <ImageView
+                android:id="@id/btn_cancel"
+                android:background="@drawable/pngeditor_clickable_img_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="?android:actionBarSize"
+                android:src="@drawable/pngeditor_cross" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView
+        android:textColor="@color/white"
+        android:id="@id/tv_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@android:dimen/thumbnail_width"
+        android:maxLines="1"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:textColor="@color/white"
+        android:id="@id/tv_scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

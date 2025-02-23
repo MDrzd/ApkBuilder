@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="#ff333333"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatButton
+        android:textColor="#ffffffff"
+        android:id="@id/btn_scale_fit"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/fit"
+        android:layout_weight="1.0"
+        app:backgroundTint="#ff606060" />
+    <android.support.v7.widget.AppCompatButton
+        android:textColor="#ffffffff"
+        android:id="@id/btn_scale_100"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="100%"
+        android:layout_weight="1.0"
+        app:backgroundTint="#ff606060" />
+    <android.support.v7.widget.AppCompatButton
+        android:textColor="#ffffffff"
+        android:id="@id/btn_scale_200"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="200%"
+        android:layout_weight="1.0"
+        app:backgroundTint="#ff606060" />
+    <android.support.v7.widget.AppCompatButton
+        android:textColor="#ffffffff"
+        android:id="@id/btn_scale_400"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="400%"
+        android:layout_weight="1.0"
+        app:backgroundTint="#ff606060" />
+</LinearLayout>

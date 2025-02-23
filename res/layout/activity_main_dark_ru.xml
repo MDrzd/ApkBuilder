@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/apkbuilder_logo" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="30.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@id/tv_new_project"
+                android:background="@drawable/t1046_button_large"
+                android:padding="5.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:layout_margin="10.0dip"
+                android:text="@string/new_project"
+                android:singleLine="true" />
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@id/tv_open_project"
+                android:background="@drawable/t1046_button_large"
+                android:padding="5.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:layout_margin="10.0dip"
+                android:text="@string/open_project"
+                android:singleLine="true" />
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@id/tv_term"
+                android:background="@drawable/t1046_button_large"
+                android:padding="5.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:layout_margin="10.0dip"
+                android:text="@string/terminal"
+                android:singleLine="true"
+                android:drawableLeft="@drawable/ic_terminal" />
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="#ffffffff"
+                android:gravity="center"
+                android:id="@id/tv_exit"
+                android:background="@drawable/t1046_button_large"
+                android:padding="5.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:layout_margin="10.0dip"
+                android:text="@string/exit"
+                android:drawableLeft="@drawable/ic_exit" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/adViewLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:layout_gravity="start"
+        android:id="@id/slider_list"
+        android:background="@color/lightblack"
+        android:paddingTop="16.0dip"
+        android:layout_width="200.0dip"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0dip"
+        android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

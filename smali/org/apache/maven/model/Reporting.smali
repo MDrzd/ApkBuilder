@@ -1,0 +1,403 @@
+.class public Lorg/apache/maven/model/Reporting;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/io/Serializable;
+.implements Ljava/lang/Cloneable;
+.implements Lorg/apache/maven/model/InputLocationTracker;
+
+
+# instance fields
+.field private excludeDefaults:Ljava/lang/String;
+
+.field private locations:Ljava/util/Map;
+
+.field private outputDirectory:Ljava/lang/String;
+
+.field private plugins:Ljava/util/List;
+
+.field reportPluginMap:Ljava/util/Map;
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public addPlugin(Lorg/apache/maven/model/ReportPlugin;)V
+    .registers 3
+
+    invoke-virtual {p0}, Lorg/apache/maven/model/Reporting;->getPlugins()Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public bridge synthetic clone()Ljava/lang/Object;
+    .registers 2
+
+    invoke-virtual {p0}, Lorg/apache/maven/model/Reporting;->clone()Lorg/apache/maven/model/Reporting;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public clone()Lorg/apache/maven/model/Reporting;
+    .registers 5
+
+    :try_start_0
+    invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lorg/apache/maven/model/Reporting;
+
+    iget-object v1, p0, Lorg/apache/maven/model/Reporting;->plugins:Ljava/util/List;
+
+    if-eqz v1, :cond_0
+
+    new-instance v1, Ljava/util/ArrayList;
+
+    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v1, v0, Lorg/apache/maven/model/Reporting;->plugins:Ljava/util/List;
+
+    iget-object v1, p0, Lorg/apache/maven/model/Reporting;->plugins:Ljava/util/List;
+
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lorg/apache/maven/model/ReportPlugin;
+
+    iget-object v3, v0, Lorg/apache/maven/model/Reporting;->plugins:Ljava/util/List;
+
+    invoke-virtual {v2}, Lorg/apache/maven/model/ReportPlugin;->clone()Lorg/apache/maven/model/ReportPlugin;
+
+    move-result-object v2
+
+    invoke-interface {v3, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v1, v0, Lorg/apache/maven/model/Reporting;->locations:Ljava/util/Map;
+
+    if-eqz v1, :cond_1
+
+    new-instance v1, Ljava/util/LinkedHashMap;
+
+    iget-object v2, v0, Lorg/apache/maven/model/Reporting;->locations:Ljava/util/Map;
+
+    invoke-direct {v1, v2}, Ljava/util/LinkedHashMap;-><init>(Ljava/util/Map;)V
+
+    iput-object v1, v0, Lorg/apache/maven/model/Reporting;->locations:Ljava/util/Map;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :cond_1
+    return-object v0
+
+    :catch_0
+    move-exception v0
+
+    new-instance v1, Ljava/lang/UnsupportedOperationException;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v3, " does not support clone()"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, v0}, Ljava/lang/UnsupportedOperationException;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/RuntimeException;
+
+    throw v0
+.end method
+
+.method public declared-synchronized flushReportPluginMap()V
+    .registers 2
+
+    monitor-enter p0
+
+    const/4 v0, 0x0
+
+    :try_start_0
+    iput-object v0, p0, Lorg/apache/maven/model/Reporting;->reportPluginMap:Ljava/util/Map;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public getExcludeDefaults()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->excludeDefaults:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getLocation(Ljava/lang/Object;)Lorg/apache/maven/model/InputLocation;
+    .registers 3
+
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->locations:Ljava/util/Map;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->locations:Ljava/util/Map;
+
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lorg/apache/maven/model/InputLocation;
+
+    return-object p1
+
+    :cond_0
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public getOutputDirectory()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->outputDirectory:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getPlugins()Ljava/util/List;
+    .registers 2
+
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->plugins:Ljava/util/List;
+
+    if-nez v0, :cond_0
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lorg/apache/maven/model/Reporting;->plugins:Ljava/util/List;
+
+    :cond_0
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->plugins:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public declared-synchronized getReportPluginsAsMap()Ljava/util/Map;
+    .registers 5
+
+    monitor-enter p0
+
+    :try_start_0
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->reportPluginMap:Ljava/util/Map;
+
+    if-nez v0, :cond_0
+
+    new-instance v0, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+
+    iput-object v0, p0, Lorg/apache/maven/model/Reporting;->reportPluginMap:Ljava/util/Map;
+
+    invoke-virtual {p0}, Lorg/apache/maven/model/Reporting;->getPlugins()Ljava/util/List;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lorg/apache/maven/model/Reporting;->getPlugins()Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lorg/apache/maven/model/ReportPlugin;
+
+    iget-object v2, p0, Lorg/apache/maven/model/Reporting;->reportPluginMap:Ljava/util/Map;
+
+    invoke-virtual {v1}, Lorg/apache/maven/model/ReportPlugin;->getKey()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-interface {v2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->reportPluginMap:Ljava/util/Map;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return-object v0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public isExcludeDefaults()Z
+    .registers 2
+
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->excludeDefaults:Ljava/lang/String;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->excludeDefaults:Ljava/lang/String;
+
+    invoke-static {v0}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
+
+    move-result v0
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public removePlugin(Lorg/apache/maven/model/ReportPlugin;)V
+    .registers 3
+
+    invoke-virtual {p0}, Lorg/apache/maven/model/Reporting;->getPlugins()Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public setExcludeDefaults(Ljava/lang/String;)V
+    .registers 2
+
+    iput-object p1, p0, Lorg/apache/maven/model/Reporting;->excludeDefaults:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public setExcludeDefaults(Z)V
+    .registers 2
+
+    invoke-static {p1}, Ljava/lang/String;->valueOf(Z)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/apache/maven/model/Reporting;->excludeDefaults:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public setLocation(Ljava/lang/Object;Lorg/apache/maven/model/InputLocation;)V
+    .registers 4
+
+    if-eqz p2, :cond_1
+
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->locations:Ljava/util/Map;
+
+    if-nez v0, :cond_0
+
+    new-instance v0, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+
+    iput-object v0, p0, Lorg/apache/maven/model/Reporting;->locations:Ljava/util/Map;
+
+    :cond_0
+    iget-object v0, p0, Lorg/apache/maven/model/Reporting;->locations:Ljava/util/Map;
+
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    :cond_1
+    return-void
+.end method
+
+.method public setOutputDirectory(Ljava/lang/String;)V
+    .registers 2
+
+    iput-object p1, p0, Lorg/apache/maven/model/Reporting;->outputDirectory:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public setPlugins(Ljava/util/List;)V
+    .registers 2
+
+    iput-object p1, p0, Lorg/apache/maven/model/Reporting;->plugins:Ljava/util/List;
+
+    return-void
+.end method

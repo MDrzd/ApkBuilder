@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Přejít na plochu</string>
+    <string name="abc_action_bar_up_description">Přejít nahoru</string>
+    <string name="abc_action_menu_overflow_description">Více možností</string>
+    <string name="abc_action_mode_done">Hotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Zobrazit vše</string>
+    <string name="abc_activitychooserview_choose_application">Vybrat aplikaci</string>
+    <string name="abc_capital_off">VYPNUTO</string>
+    <string name="abc_capital_on">ZAPNUTO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mezerník</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Vyhledat…</string>
+    <string name="abc_searchview_description_clear">Smazat dotaz</string>
+    <string name="abc_searchview_description_query">Vyhledávací dotaz</string>
+    <string name="abc_searchview_description_search">Hledat</string>
+    <string name="abc_searchview_description_submit">Odeslat dotaz</string>
+    <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
+    <string name="abc_shareactionprovider_share_with">Sdílet pomocí</string>
+    <string name="abc_shareactionprovider_share_with_application">Sdílet pomocí %s</string>
+    <string name="abc_toolbar_collapse_description">Sbalit</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="add_a_file">Přidat soubor</string>
+    <string name="add_a_language">Přidat jazyk</string>
+    <string name="add_key_value">Přidat klíč/value:</string>
+    <string name="apk_building">Sestavení APK</string>
+    <string name="apk_saved_tip">Úspěch! APK se uloží na SD kartu: %s</string>
+    <string name="apk_savedas_1">APK uložen jako %s</string>
+    <string name="app_display">Zobrazit Aplikaci</string>
+    <string name="app_list_order">Seznam Aplikací podle</string>
+    <string name="appearance">Vzhled</string>
+    <string name="application_terminal">Terminal Emulator</string>
+    <string name="assemble_dex_detail" formatted="false">%d/%d souborů sestaveno</string>
+    <string name="assemble_dex_file">Sestavit soubor DEX</string>
+    <string name="audio_summary">%d audia</string>
+    <string name="audios_captical">AUDIO</string>
+    <string name="auto_translation">Auto Překlad</string>
+    <string name="cannot_find_ext_sdcard">Nelze najít externí SD kartu.</string>
+    <string name="cannot_parse_apk">Nelze analyzovat soubor APK</string>
+    <string name="clean_garbage">Vyčistit Odpad</string>
+    <string name="clean_garbage_summary">Klikněte zde a vyčistite dočasné soubory.</string>
+    <string name="cleanup">Vyčistit</string>
+    <string name="close">Zavřít</string>
+    <string name="close_window">Zavřít okno</string>
+    <string name="code">Kód:</string>
+    <string name="colormixer_blue">M</string>
+    <string name="colormixer_cancel">Zrušit</string>
+    <string name="colormixer_green">Z</string>
+    <string name="colormixer_red">Č</string>
+    <string name="colormixer_set">Nastavit</string>
+    <string name="common_edit">Upravit info v aplikaci</string>
+    <string name="compose">Kompozice</string>
+    <string name="compose_error">Kompozitní Chyba:</string>
+    <string name="compression_level">Úroveň komprese</string>
+    <string name="compression_level_summary">Metoda nízké komprese je rychlejší, ale špatná pro kompresní poměr. Taková APK je větší.</string>
+    <string name="confirm_dir_replace">Nahradit Složku</string>
+    <string name="confirm_window_close_message">Zavřít okno?</string>
+    <string name="control_key_dialog_control_disabled_text">Není nastaveno žádné tlačitko pro control.</string>
+    <string name="control_key_dialog_control_text">"CTRLKEY Space : Control-@ (NUL)
+CTRLKEY A..Z : Control-A..Z
+CTRLKEY 5 : Control-]
+CTRLKEY 6 : Control-^
+CTRLKEY 7 : Control-_
+CTRLKEY 9 : F11
+CTRLKEY 0 : F12"</string>
+    <string name="control_key_dialog_fn_disabled_text">Není nastaveno žádné tlačitko pro funkční klávesu.</string>
+    <string name="control_key_dialog_fn_text">"FNKEY 1..9 : F1-F9
+FNKEY 0 : F10
+FNKEY W : Up
+FNKEY A : Left
+FNKEY S : Down
+FNKEY D : Right
+FNKEY P : PageUp
+FNKEY N : PageDown
+FNKEY T : Tab
+FNKEY L : | (pipe)
+FNKEY U : _ (underscore)
+FNKEY E : Control-[ (ESC)
+FNKEY X : Delete
+FNKEY I : Insert
+FNKEY H : Home
+FNKEY F : End
+FNKEY . : Control-\\
+"</string>
+    <string name="control_key_dialog_title">Funkční klávesy a klávesa control</string>
+    <string name="copy_all">Kopírovat vše</string>
+    <string name="custom_key_setting">Vlastní Klíč</string>
+    <string name="dark_theme">Tmavé Téma</string>
+    <string name="dark_theme_desc">Aktivovat tmavé téma pro úpravu APK</string>
+    <string name="delete">Odstranit</string>
+    <string name="delete_this_line">Odstranit tento řádek</string>
+    <string name="description">POPIS:</string>
+    <string name="dialog_title_actionbar_preference">Chování panelu akcí</string>
+    <string name="dialog_title_backaction_preference">Chování tlačítka zpět</string>
+    <string name="dialog_title_color_preference">Barva textu</string>
+    <string name="dialog_title_controlkey_preference">Klávesa control</string>
+    <string name="dialog_title_cursorblink_preference">Blikání kurzoru</string>
+    <string name="dialog_title_cursorstyle_preference">Styl kurzoru</string>
+    <string name="dialog_title_fnkey_preference">Klávesa Fn</string>
+    <string name="dialog_title_fontsize_preference">Velikost písma</string>
+    <string name="dialog_title_ime_preference">Vstupní metoda</string>
+    <string name="dialog_title_initialcommand_preference">Počáteční příkaz</string>
+    <string name="dialog_title_shell_preference">Shell</string>
+    <string name="dialog_title_statusbar_preference">Stavový řádek</string>
+    <string name="dialog_title_termtype_preference">Typ terminálu</string>
+    <string name="disable_wakelock">Povolit uspání</string>
+    <string name="disable_wifilock">Povolit odpojení wifi</string>
+    <string name="donot_show_again">Příště již nezobrazovat</string>
+    <string name="dummy" />
+    <string name="edit">Upravit</string>
+    <string name="edit_data_root">Úprava Dat [ROOT]</string>
+    <string name="edit_string_value">Upravit value</string>
+    <string name="edit_text">Práce s textem</string>
+    <string name="empty_input_tip">Vstup nemůže být prázdný.</string>
+    <string name="empty_key_tip">Klíč nemůže být prázdný!</string>
+    <string name="enable_wakelock">Zabránit uspání</string>
+    <string name="enable_wifilock">Zabránit odpojení wifi</string>
+    <string name="error_file_too_big">Soubor je příliš velký pro otevření.</string>
+    <string name="error_filepath_empty">Cesta k souboru nemůže být prázdná.</string>
+    <string name="error_filepath_notexist">Soubor neexistuje.</string>
+    <string name="error_no_string_tosave">Žádný přeložený řetězec pro uložení.</string>
+    <string name="error_no_string_totranslate">Nejsou žádné řetězce na překlad.</string>
+    <string name="exit">Ukončit</string>
+    <string name="extract">Výpis</string>
+    <string name="failed">Neúspěšné</string>
+    <string name="failed_1">Selhalo: %s</string>
+    <string name="failed_format">%d řetězců selhalo</string>
+    <string name="file_added">Přidán soubor: %s</string>
+    <string name="file_already_exist">"'%s'  již existuje! "</string>
+    <string name="file_replaced">Soubor byl nahrazen.</string>
+    <string name="file_saved">Soubor uložen.</string>
+    <string name="files">Soubory</string>
+    <string name="files_capital">SOUBORY</string>
+    <string name="find">Hledat</string>
+    <string name="find_replace">Najít/Nahradit</string>
+    <string name="folder_replace_tip" formatted="false">Opravdu chcete nahradit %s složkou %s?</string>
+    <string name="folder_replaced">Složka Nahrazena</string>
+    <string name="font_size">Velikost písma</string>
+    <string name="font_size_summary">Aktuální velikost písma: %d</string>
+    <string name="full_edit">Plná úprava</string>
+    <string name="full_screen">Celá obrazovka</string>
+    <string name="full_screen_desc">Vyberte zobrazení na celou obrazovku</string>
+    <string name="general_error">Chyba: %s</string>
+    <string name="hello_world">Ahoj světe!</string>
+    <string name="help">Pomoc</string>
+    <string name="hide">Skrýt</string>
+    <string name="hide_smali_tip">Prosím dlouze stiskněte DEX -> Skrýt Smali.</string>
+    <string name="icon_changed_tip">Změna ikony, se projeví až po restartování zařízení.</string>
+    <string name="image_summary">%d obrázků</string>
+    <string name="images_capital">OBRÁZKY</string>
+    <string name="in_progress">Pracuji …</string>
+    <string name="install">Instalovat</string>
+    <string name="install_location">Umístění Instalace</string>
+    <string name="invalid_lang_code">Neplatný kód jazyka!</string>
+    <string name="invalid_ver_code">Neplatný Kód Verze.</string>
+    <string name="key">Klíč</string>
+    <string name="keyboard_preferences">Klávesnice</string>
+    <string name="keyword_hint">Zadejte klíčové slovo</string>
+    <string name="lang_exist">Jazyk již existuje!</string>
+    <string name="language">Jazyk:</string>
+    <string name="launcher_icon">Ikona v Launcheru</string>
+    <string name="line_data">ŘÁDEK DAT:</string>
+    <string name="line_wrap">Zalamovat</string>
+    <string name="line_wrap_disabled">Zalomení je zakázáno. Pro změnu je potřeba restart.</string>
+    <string name="line_wrap_enabled">Zalomení je povoleno.</string>
+    <string name="loading">Načítání ...</string>
+    <string name="location_0">Výchozí (Nespecifikováno)</string>
+    <string name="location_1">Automaticky (Systém)</string>
+    <string name="location_2">Pouze Interní paměť</string>
+    <string name="location_3">Preferovat Externí paměť</string>
+    <string name="manifest">Manifest</string>
+    <string name="manifest_edit_not_support">Úpravy nejsou podporovány ve verzi zdarma!</string>
+    <string name="merge">Zabalit</string>
+    <string name="merge_error">Chyba při Zabalení: %s</string>
+    <string name="mf_search_ret">%d Řádků Nalezeno</string>
+    <string name="must_allow_non_market_app">Instalace aplikací třetích stran musí být povolena!</string>
+    <string name="name">Název</string>
+    <string name="new_folder">Nová Složka</string>
+    <string name="new_window">Nové okno</string>
+    <string name="next">Další</string>
+    <string name="next_window">Další okno</string>
+    <string name="no">NE</string>
+    <string name="no_change_detected">Beze změny.</string>
+    <string name="not_available">Není dostupný</string>
+    <string name="not_found">Nenalezeno</string>
+    <string name="notfound_in_manifest">Nelze najít cílový řetězec v AndroidManifest.xml</string>
+    <string name="notice_capital">OZNÁMENÍ</string>
+    <string name="open_in_new_window">Otevřít v novém okně</string>
+    <string name="others">Ostatní</string>
+    <string name="package_name">Jméno Balíčku</string>
+    <string name="paste">Vložit</string>
+    <string name="pls_input_filename">Zadejte název souboru:</string>
+    <string name="pls_input_foldername">Zadejte prosím název složky:</string>
+    <string name="pls_input_keyword">Zadejte klíčové slovo</string>
+    <string name="preferences">Nastavení</string>
+    <string name="prev_window">Predešlé okno</string>
+    <string name="previous">Předchozí</string>
+    <string name="private_key_label">"Soukromý klíč
+(.pk8)"</string>
+    <string name="pro_mode">PRO</string>
+    <string name="process_exit_message">Terminál je ukončen</string>
+    <string name="promote_msg">"Úpravy jsou podporovány pouze Pro verzí. Klikněte na 'Zobrazit Pro verzi' a získejte Pro verzi?"</string>
+    <string name="public_key_label">"Veřejný klíč
+(.x509.pem)"</string>
+    <string name="regexp">Regulární výrazy</string>
+    <string name="remove">Odstranit</string>
+    <string name="remove_tip">Aplikace je již nainstalována, může být nutné ji odstranit před instalací upraveného balíčku APK.</string>
+    <string name="rename">Přejmenovat</string>
+    <string name="rename_in_resources">Přejmenovat název balíčku v resources.arsc</string>
+    <string name="replace">Nahradit</string>
+    <string name="reset">Reset terminálu</string>
+    <string name="reset_toast_notification">Toto terminálové okno bylo restartováno.</string>
+    <string name="resolution">Rozlišení</string>
+    <string name="resource">Resource</string>
+    <string name="resource_replaced">Nahradit zdroj</string>
+    <string name="retranslate">&amp;amp;amp;lt;u>Nový překlad&amp;amp;amp;lt;/u></string>
+    <string name="save">Uložit</string>
+    <string name="save_succeed_1">Úspěch: uloženo do %s</string>
+    <string name="save_succeed_tip">%d řetězce uloženy.</string>
+    <string name="save_translation_msg">Překlad ještě není uložen.</string>
+    <string name="save_translation_title">Uložit překlad?</string>
+    <string name="saved">uložen.</string>
+    <string name="screen_preferences">Obrazovka</string>
+    <string name="search">Hledat</string>
+    <string name="search_menu_title">Hledat</string>
+    <string name="searching">Hledání</string>
+    <string name="section_undeletable">Tento oddíl nelze smazat!</string>
+    <string name="select_apk_file">Vybrat Soubor Apk</string>
+    <string name="select_apk_from_app">Vybrat Apk z Aplikace</string>
+    <string name="select_file_replace">Vyberte soubor pro nahrazení</string>
+    <string name="select_folder">Prosím, vyberte složku</string>
+    <string name="select_folder_err1">Prosím, vyberte cestu uvnitř pracovního adresáře APK Editoru.</string>
+    <string name="select_folder_err2">Prosím, vyberte cestu pro uložení pracovního adresáře APK Editoru.</string>
+    <string name="select_folder_replace">Vyberte složku, do které ji nahradit</string>
+    <string name="select_key_file">Vyberte soubor s klíčem</string>
+    <string name="select_target_lang">Vybraný jazyk, přeložit do</string>
+    <string name="select_text">Vybrat text</string>
+    <string name="send_control_key">Pošli klávesu control</string>
+    <string name="send_email">Napiš email</string>
+    <string name="send_fn_key">Pošli klávesu fn</string>
+    <string name="service_notify_text">Terminál je spuštěný</string>
+    <string name="settings">Nastavení</string>
+    <string name="shell_preferences">Shell</string>
+    <string name="show_ad">Zobrazit AD</string>
+    <string name="show_ad_tip">Uspěšné! Omlouvám se, za zobrazení reklamy.</string>
+    <string name="sign">Podpis</string>
+    <string name="sign_apk_with">Přihlásit se k APK</string>
+    <string name="sign_apk_with_summary">Určete, který klíč použít k úspěšnému podepsání APK.</string>
+    <string name="sign_error">Chyba Podpisu:</string>
+    <string name="simple_edit">Nahradit pouze soubory</string>
+    <string name="size">Velikost</string>
+    <string name="smali_edit_disabled_summary">Zakázáno. Nezobrazí DEX smali obrazu v Plné úpravě.</string>
+    <string name="smali_edit_summary">Povoleno. Zobrazí DEX smali obrazu v Plné úpravě.</string>
+    <string name="smali_editing">Úprava Smali</string>
+    <string name="special_keys">Speciální znaky</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="step">Krok</string>
+    <string name="stop">Stop</string>
+    <string name="str_app_name">Jméno Aplikace</string>
+    <string name="str_files_found" formatted="false">"%d souborů nalezeno - '%s'"</string>
+    <string name="string">Řetězce</string>
+    <string name="string_notsaved_msg">%d řetězce jsou vyřazeny.</string>
+    <string name="succeed">Úspěch</string>
+    <string name="succeed_with_warning">Úspěšné varování.</string>
+    <string name="summary_actionbar_preference">Vyberte chování panelu akcí (Android 3.0 a novější).</string>
+    <string name="summary_backaction_preference">Vyberte chování tlačítka zpět.</string>
+    <string name="summary_close_window_on_process_exit_preference">Nastavte, zda má být okno zavřeno po ukončení shellu.</string>
+    <string name="summary_color_preference">Vyberte barevné schéma terminálu.</string>
+    <string name="summary_controlkey_preference">Vyberte tlačítko pro klávesu control.</string>
+    <string name="summary_cursorblink_preference">Vyberte chování kurzoru.</string>
+    <string name="summary_cursorstyle_preference">Vyberte styl kurzoru.</string>
+    <string name="summary_fnkey_preference">Vyberte tlačítko pro klávesu Fn.</string>
+    <string name="summary_fontsize_preference">Vyberte velikost písma.</string>
+    <string name="summary_ime_preference">Vyberte vstupní metodu pro soft. klávesnici.</string>
+    <string name="summary_initialcommand_preference">Nastavte počáteční příkaz po spuštění terminálu.</string>
+    <string name="summary_shell_preference">Nastavte příkazový řádek.</string>
+    <string name="summary_statusbar_preference">Zobrazit/skrýt stavový řádek.</string>
+    <string name="summary_termtype_preference">Vyberte typ terminálu pro interpretaci příkazů.</string>
+    <string name="summary_utf8_by_default_preference">Nastavte formátování UTF-8 jako výchozí.</string>
+    <string name="sure_to_exit_editing">Opravdu chcete ukončit úpravu?</string>
+    <string name="system_apps">Systémová aplikace</string>
+    <string name="temp_file_cleaned">Dočasný soubor vyčištěn.</string>
+    <string name="text_preferences">Text</string>
+    <string name="title_actionbar_preference">Panel akcí</string>
+    <string name="title_backaction_preference">Chování tlačítka zpět</string>
+    <string name="title_close_window_on_process_exit_preference">Zavřít okno při ukončení</string>
+    <string name="title_color_preference">Barvy</string>
+    <string name="title_controlkey_preference">Klávesa control</string>
+    <string name="title_cursorblink_preference">Blikání kurzoru</string>
+    <string name="title_cursorstyle_preference">Styl kurzoru</string>
+    <string name="title_fnkey_preference">Klávesa Fn</string>
+    <string name="title_fontsize_preference">Velikost písma</string>
+    <string name="title_ime_preference">Vstupní metoda</string>
+    <string name="title_initialcommand_preference">Počáteční příkaz</string>
+    <string name="title_shell_preference">Příkazový řádek</string>
+    <string name="title_statusbar_preference">Stavový řádek</string>
+    <string name="title_termtype_preference">Typ terminálu</string>
+    <string name="title_utf8_by_default_preference">Výchozí formát UTF-8</string>
+    <string name="toggle_soft_keyboard">Přepnout soft. klávesnici</string>
+    <string name="translated">Přeložený</string>
+    <string name="translated_format">%d řetězce přeloženy</string>
+    <string name="translating">Překládání …</string>
+    <string name="unknown_error">Neznámá chyba.</string>
+    <string name="untranslated_format">%d řetězce nepřeloženy</string>
+    <string name="user_apps">Uživatelská aplikace</string>
+    <string name="value">value</string>
+    <string name="version_code">Kód Verze</string>
+    <string name="version_name">Jméno Verze</string>
+    <string name="view">Náhled</string>
+    <string name="view_pro_version">Zobrazit Pro Verzi</string>
+    <string name="wait_for_decoding">Počkejte chvíli dokud není dokončeno dekódování.</string>
+    <string name="warning">Varování</string>
+    <string name="warning_keyword_empty">Vstup nemůže být prázdný.</string>
+    <string name="window_list">Okna</string>
+    <string name="window_title">Okno %1$d</string>
+    <string name="yes">ANO</string>
+</resources>

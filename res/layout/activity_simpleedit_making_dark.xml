@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/layout_apk_generating"
+        android:background="#ff333333"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ProgressBar
+            android:id="@id/progressBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="@drawable/commonutil_progressbar"
+            style="?android:progressBarStyleLarge" />
+        <TextView
+            android:textColor="#ffffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:text="@string/in_progress" />
+        <TextView
+            android:textColor="#ffffffff"
+            android:id="@id/tv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/layout_apk_reinstall"
+        android:background="#ff333333"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@id/result_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/succeed" />
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                android:id="@id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24.0dip"
+                android:layout_marginRight="24.0dip" />
+        </ScrollView>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#ff000000"
+            android:padding="4.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@id/button_uninstall"
+                android:visibility="gone"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4.0dip"
+                android:text="@string/remove"
+                android:layout_weight="1.0"
+                style="@style/dark_button" />
+            <Button
+                android:id="@id/button_reinstall"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4.0dip"
+                android:text="@string/install"
+                android:layout_weight="1.0"
+                style="@style/dark_button" />
+            <Button
+                android:id="@id/button_close"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/close"
+                android:layout_weight="1.0"
+                style="@style/dark_button" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

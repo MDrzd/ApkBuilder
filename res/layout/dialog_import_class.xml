@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/lightblue"
+        android:id="@id/tv_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_a_class"
+        android:layout_alignParentTop="true" />
+    <LinearLayout
+        android:id="@id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@id/btn_cancel"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@android:string/cancel"
+            android:layout_weight="1.0"
+            style="@style/button" />
+        <Button
+            android:id="@id/btn_next"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:layout_weight="1.0"
+            style="@style/button" />
+    </LinearLayout>
+    <ListView
+        android:id="@id/class_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="200.0dip"
+        android:layout_above="@id/bottom_layout"
+        android:layout_below="@id/tv_tip" />
+</RelativeLayout>

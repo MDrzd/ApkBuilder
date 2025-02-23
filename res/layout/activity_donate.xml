@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:src="@drawable/ic_donate" />
+        <ImageView
+            android:id="@id/image_launcher"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip" />
+    </LinearLayout>
+    <WebView
+        android:id="@id/donateWeb"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

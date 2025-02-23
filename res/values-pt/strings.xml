@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegação inicial</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Feito</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Escolher um app</string>
+    <string name="abc_capital_off">DESATIVAR</string>
+    <string name="abc_capital_on">ATIVAR</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">espaço</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Pesquisar...</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Peaquisar consulta</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="action_settings">Configurações</string>
+    <string name="add_a_file">Adicionar um Arquivo</string>
+    <string name="add_a_language">Adicionar uma linguagem</string>
+    <string name="add_key_value">Adicionar uma chave/valor:</string>
+    <string name="apk_building">APK Building</string>
+    <string name="apk_savedas_1">APK salvo como %s</string>
+    <string name="app_display">Exibir App</string>
+    <string name="app_list_order">Lista de app ordenado por</string>
+    <string name="appearance">Aparência</string>
+    <string name="application_terminal">Emulador de Terminal</string>
+    <string name="audio_summary">%d áudios</string>
+    <string name="audios_captical">ÁUDIOS</string>
+    <string name="cannot_parse_apk">O arquivo apk não pôde ser analizado</string>
+    <string name="clean_garbage">Limpeza de lixo</string>
+    <string name="clean_garbage_summary">Clique aqui para limpar os arquivos temporários.</string>
+    <string name="cleanup">Limpe</string>
+    <string name="close">Fechar</string>
+    <string name="close_window">Fechar janela</string>
+    <string name="code">Código:</string>
+    <string name="common_edit">Edição Comum</string>
+    <string name="compose">Compor</string>
+    <string name="compose_error">Compor Erro:</string>
+    <string name="compression_level">Nível de Compressão</string>
+    <string name="compression_level_summary">Nível inferior tem melhor velocidade, mas com mau taxa de compressão, assim fazer um APK maior.</string>
+    <string name="confirm_window_close_message">Fechar janela?</string>
+    <string name="control_key_dialog_control_disabled_text">Nenhuma tecla definida.</string>
+    <string name="control_key_dialog_control_text">"CTRLKEY espaço : Control-@ (NUL)
+CTRLKEY A..Z : Control-A..Z
+CTRLKEY 5 : Control-]
+CTRLKEY 6 : Control-^
+CTRLKEY 7 : Control-_
+CTRLKEY 9 : F11
+CTRLKEY 0 : F12"</string>
+    <string name="control_key_dialog_fn_disabled_text">Nenhuma tecla definida.</string>
+    <string name="control_key_dialog_fn_text">"FNKEY 1..9 : F1-F9
+FNKEY 0 : F10
+FNKEY W : Cima
+FNKEY A : Esquerda
+FNKEY S : Baixo
+FNKEY D : Direita
+FNKEY P : PageUp
+FNKEY N : PageDown
+FNKEY T : Tab
+FNKEY L : | (pipe)
+FNKEY U : _ (underscore)
+FNKEY E : Control-[ (ESC)
+FNKEY X : Delete
+FNKEY I : Insert
+FNKEY H : Home
+FNKEY F : End
+FNKEY . : Control-\\
+"</string>
+    <string name="control_key_dialog_title">Teclas Control e Fn</string>
+    <string name="copy_all">Copiar tudo</string>
+    <string name="dark_theme">Tema Escuro</string>
+    <string name="dark_theme_desc">Ativar tema escuro para APK de edição</string>
+    <string name="delete">Apagar</string>
+    <string name="delete_this_line">Apagar esta Linha</string>
+    <string name="description">DESCRIÇÃO:</string>
+    <string name="dialog_title_actionbar_preference">Comportamento da barra de ação</string>
+    <string name="dialog_title_backaction_preference">Comportamento do botão Voltar</string>
+    <string name="dialog_title_color_preference">Cor do texto</string>
+    <string name="dialog_title_controlkey_preference">Tecla Control</string>
+    <string name="dialog_title_cursorblink_preference">Intermitência</string>
+    <string name="dialog_title_cursorstyle_preference">Estilo do cursor</string>
+    <string name="dialog_title_fnkey_preference">Tecla Fn</string>
+    <string name="dialog_title_fontsize_preference">Tamanho da letra</string>
+    <string name="dialog_title_ime_preference">Método de inserção</string>
+    <string name="dialog_title_initialcommand_preference">Comando inicial</string>
+    <string name="dialog_title_shell_preference">Consola</string>
+    <string name="dialog_title_statusbar_preference">Barra de estado</string>
+    <string name="dialog_title_termtype_preference">Tipo de Terminal</string>
+    <string name="disable_wakelock">Largar WakeLock</string>
+    <string name="disable_wifilock">Largar WifiLock</string>
+    <string name="dummy" />
+    <string name="edit">Editar</string>
+    <string name="edit_data_root">Editar Dados [ROOT]</string>
+    <string name="edit_string_value">Editar o Valor</string>
+    <string name="edit_text">Editar texto</string>
+    <string name="empty_input_tip">O campo não pode ficar vazio.</string>
+    <string name="empty_key_tip">A chave não pode ser vazia!</string>
+    <string name="enable_wakelock">Obter WakeLock</string>
+    <string name="enable_wifilock">Obter WifiLock</string>
+    <string name="exit">Sair</string>
+    <string name="extract">Extrair</string>
+    <string name="failed">Falhou</string>
+    <string name="failed_1">Falhou: %s</string>
+    <string name="file_added">Arquivo adicionado: %s</string>
+    <string name="file_already_exist">"'%s' já existe!"</string>
+    <string name="files_capital">ARQUIVOS</string>
+    <string name="find">Procurar</string>
+    <string name="full_edit">Edição completa (RESOURCE RE-BUILD)</string>
+    <string name="full_screen">Tela cheia</string>
+    <string name="full_screen_desc">Selecione para permitir tela cheia</string>
+    <string name="hello_world">Olá Mundo!</string>
+    <string name="help">Ajuda</string>
+    <string name="icon_changed_tip">Ícone mudado, reinicie a aplicação para que a edição seja aplicada.</string>
+    <string name="image_summary">%d imagens</string>
+    <string name="images_capital">IMAGENS</string>
+    <string name="in_progress">Trabalhando …</string>
+    <string name="install">Instalar</string>
+    <string name="install_location">Local de instalação</string>
+    <string name="invalid_lang_code">Código de idioma inválido!</string>
+    <string name="invalid_ver_code">Versão de código inválida.</string>
+    <string name="key">Chave</string>
+    <string name="keyboard_preferences">Teclado</string>
+    <string name="keyword_hint">Insira uma palavra-chave</string>
+    <string name="lang_exist">A linguagem já existe!</string>
+    <string name="language">Linguagem:</string>
+    <string name="launcher_icon">Mudar Ícone</string>
+    <string name="line_data">LINHA DE DADOS:</string>
+    <string name="loading">Carregando …</string>
+    <string name="location_0">Padrão (Não Especificado)</string>
+    <string name="location_1">Auto (OS Faz a Decisão)</string>
+    <string name="location_2">Somente Interno</string>
+    <string name="location_3">Prefer Externa</string>
+    <string name="manifest">Manifest</string>
+    <string name="manifest_edit_not_support">Editing is not supported in free version!</string>
+    <string name="merge">Mesclar</string>
+    <string name="merge_error">Mesclar Erro: %s</string>
+    <string name="mf_search_ret">%d Linhas Encontradas</string>
+    <string name="must_allow_non_market_app">Instalação de apps não mercantis devem ser permitidos!</string>
+    <string name="name">Nome</string>
+    <string name="new_window">Nova janela</string>
+    <string name="next">Próximo</string>
+    <string name="next_window">Seguinte</string>
+    <string name="no">NÃO</string>
+    <string name="no_change_detected">Nenhuma mudança detectada.</string>
+    <string name="not_available">Não disponível</string>
+    <string name="notfound_in_manifest">Não foi possível encontrar o alvo string em AndroidManifest.xml</string>
+    <string name="open_in_new_window">Abrir em uma nova janela</string>
+    <string name="others">Outros</string>
+    <string name="package_name">Nome do Pacote</string>
+    <string name="paste">Colar</string>
+    <string name="perm_append_to_path">Adicionar comandos ao emulador de terminal</string>
+    <string name="perm_prepend_to_path">Substituir comandos do emulador de terminal</string>
+    <string name="perm_run_script">Executar comandos aleatórios no emulador de terminal</string>
+    <string name="permdesc_append_to_path">Permite a disponibilização de comandos adicionais (adicionar diretórios em PATH) no emulador de terminal Android.</string>
+    <string name="permdesc_prepend_to_path">Permite que a aplicação substitua os comandos existentes pelos seus (anteceder diretórios em PATH) no emulador de terminal Android.</string>
+    <string name="permdesc_run_script">Permite que a aplicação abra janelas no emulador de terminal e executar comandos nessas janelas com todas as permissões, incluido o acesso à Internet e aos cartão SD.</string>
+    <string name="pls_input_filename">Por favor insira o nome do arquivo:</string>
+    <string name="pls_input_keyword">Insira uma Palavra-chave para Pesquisar</string>
+    <string name="preferences">Preferências</string>
+    <string name="prev_window">Anterior</string>
+    <string name="previous">Anterior</string>
+    <string name="pro_mode">PRO</string>
+    <string name="process_exit_message">A sessão do Terminal terminou</string>
+    <string name="promote_msg">"Editing is only supported in pro version. Click 'View Pro Version' to get the pro version?"</string>
+    <string name="remove">Remover</string>
+    <string name="remove_tip">O aplicativo já está instalado, pode ser que seja necessário removê-lo antes de instalar o apk modificado.</string>
+    <string name="rename">Renomear</string>
+    <string name="replace">Substituir</string>
+    <string name="reset">Repor terminal</string>
+    <string name="reset_toast_notification">O estado desta janela foi restaurado.</string>
+    <string name="resolution">Resolução</string>
+    <string name="resource">Resource</string>
+    <string name="resource_replaced">Arquivos substituídos.</string>
+    <string name="save">Salvar</string>
+    <string name="save_succeed_1">Sucesso: salvado para %s</string>
+    <string name="saved">salvo.</string>
+    <string name="screen_preferences">Ecrã</string>
+    <string name="search">Pesquisar</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="searching">Pesquisando</string>
+    <string name="section_undeletable">Esta seção não pode ser eliminada!</string>
+    <string name="select_apk_file">Selecionar um arquivo Apk</string>
+    <string name="select_apk_from_app">Selecionar Apk do App</string>
+    <string name="select_file_replace">Selecione um arquivo para substituí-lo</string>
+    <string name="select_text">Selecionar texto</string>
+    <string name="send_control_key">Enviar tecla control</string>
+    <string name="send_email">Enviar mensagem para</string>
+    <string name="send_fn_key">Enviar tecla fn</string>
+    <string name="service_notify_text">A sessão do Terminal está em execução</string>
+    <string name="shell_preferences">Consola</string>
+    <string name="show_ad">Amostrar AD</string>
+    <string name="show_ad_tip">Sucesso! Pedimos desculpa por mostrar um anúncio para você.</string>
+    <string name="sign">Assinar</string>
+    <string name="sign_error">Assinar Erro:</string>
+    <string name="simple_edit">Edição simples (FILE REPLACEMENT)</string>
+    <string name="size">Tamanho</string>
+    <string name="special_keys">Teclas especiais</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="step">Passo</string>
+    <string name="str_app_name">App Name</string>
+    <string name="string">String</string>
+    <string name="succeed">Sucesso</string>
+    <string name="summary_actionbar_preference">Escolha o comportamento da barra de ação (Android 3.0 ou superior).</string>
+    <string name="summary_allow_prepend_path_preference">Se outras aplicações podem substituir os comandos existentes (anteceder a PATH).</string>
+    <string name="summary_backaction_preference">Escolha a ação do botão Voltar.</string>
+    <string name="summary_close_window_on_process_exit_preference">Se a janela deve ser fechada ao fechar a consola.</string>
+    <string name="summary_color_preference">Escolha a cor do texto.</string>
+    <string name="summary_controlkey_preference">Escolha a tecla control.</string>
+    <string name="summary_cursorblink_preference">Escolha a intermitência do cursor.</string>
+    <string name="summary_cursorstyle_preference">Escolha o estilo do cursor.</string>
+    <string name="summary_do_path_extensions_preference">Se outras aplicações podem enviar comandos adicionais (adicionar a PATH).</string>
+    <string name="summary_fnkey_preference">Escolha a tecla Fn.</string>
+    <string name="summary_fontsize_preference">Escolha a altura das letras (em pontos).</string>
+    <string name="summary_ime_preference">Escolha o método de inserção do teclado.</string>
+    <string name="summary_initialcommand_preference">O comando inicial da consola.</string>
+    <string name="summary_shell_preference">Indique a linha de comandos da consola.</string>
+    <string name="summary_statusbar_preference">Mostrar/ocultar barra de estado.</string>
+    <string name="summary_termtype_preference">O tipo de terminal a reportar à consola.</string>
+    <string name="summary_utf8_by_default_preference">Se o modo UTF-8 está ativo por definição.</string>
+    <string name="summary_verify_path_preference">Se os diretórios inacessíveis devem ser removidos do PATH.</string>
+    <string name="sure_to_exit_editing">Tem certeza que quer sair da edição?</string>
+    <string name="system_apps">Apps do sistema</string>
+    <string name="temp_file_cleaned">Arquivos temporários limpados.</string>
+    <string name="text_preferences">Texto</string>
+    <string name="title_actionbar_preference">Barra de ação</string>
+    <string name="title_allow_prepend_path_preference">Permitir preceder PATH</string>
+    <string name="title_backaction_preference">Comportamento do botão Voltar</string>
+    <string name="title_close_window_on_process_exit_preference">Fechar janela ao sair</string>
+    <string name="title_color_preference">Cores</string>
+    <string name="title_controlkey_preference">Tecla Control</string>
+    <string name="title_cursorblink_preference">Intermitência</string>
+    <string name="title_cursorstyle_preference">Estilo do cursor</string>
+    <string name="title_do_path_extensions_preference">Permitir extensões PATH</string>
+    <string name="title_fnkey_preference">Tecla Fn</string>
+    <string name="title_fontsize_preference">Tamanho da letra</string>
+    <string name="title_ime_preference">Método de inserção</string>
+    <string name="title_initialcommand_preference">Comando inicial</string>
+    <string name="title_shell_preference">Linha de comandos</string>
+    <string name="title_statusbar_preference">Barra de estado</string>
+    <string name="title_termtype_preference">Tipo de Terminal</string>
+    <string name="title_utf8_by_default_preference">UTF-8 por definição</string>
+    <string name="title_verify_path_preference">Verificar as entradas PATH</string>
+    <string name="toggle_soft_keyboard">Mostrar/ocultar teclado</string>
+    <string name="user_apps">Apps do usuário</string>
+    <string name="value">Valor</string>
+    <string name="version_code">Versão do Código</string>
+    <string name="version_name">Nome da Versão</string>
+    <string name="view">Visualizar</string>
+    <string name="view_pro_version">Vizualizar Versão Pro</string>
+    <string name="wait_for_decoding">Por favor, aguarde por um momento até que a decodificação termine.</string>
+    <string name="window_list">Janelas</string>
+    <string name="window_title">Janela %1$d</string>
+    <string name="yes">SIM</string>
+</resources>
