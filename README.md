@@ -25,5 +25,6 @@ This project is for educational and technical exploration purposes only.
 ---
 
 Developer: MDrzd
+
 Original Author: Heagoo
 
