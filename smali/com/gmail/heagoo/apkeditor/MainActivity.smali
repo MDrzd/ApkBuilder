@@ -635,8 +635,7 @@
 
     invoke-virtual {p1, v1}, Landroid/support/v7/app/ActionBar;->setDisplayHomeAsUpEnabled(Z)V
 
-    invoke-virtual {p1, v1}, Landroid/support/v7/app/ActionBar;->setHomeButtonEnabled(Z)V
-
+    invoke-virtual {p1, v1}, Landroid/support/v7/app/ActionBar;->setHomeButtonEnablemethod
     invoke-virtual {p1, v0}, Landroid/support/v7/app/ActionBar;->setDisplayShowHomeEnabled(Z)V
 
     :cond_3
@@ -969,6 +968,34 @@
     iget-object v0, p0, Lcom/gmail/heagoo/apkeditor/MainActivity;->a:La/a/a;
 
     invoke-virtual {v0}, La/a/a;->b()V
+
+    return-void
+.end method
+
+.method public git(Landroid/view/View;)V
+    .registers 3
+
+    new-instance v0, Lcom/gmail/heagoo/buildmethod
+
+    invoke-direct {v0, p0}, Lcom/gmail/heagoo/builder/a;-><init>(Landroid/app/Activity;)V
+
+    invoke-virtual {v0}, Lcom/gmail/heagoo/builder/methodethod;->show()V
+
+    return-method
+end method
+
+.method public openSetting(Landroid/view/View;)V
+    .registers 5
+
+    new-instance v0, Landroid/content/Intent;
+
+    move-object v1, p0
+
+    const-class v2, Lcom/gmail/heagoo/apkeditor/SettingActivity;
+
+    invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    invoke-virtual {p0, v0}, Lcom/gmail/heagoo/apkeditor/MainActivity;->startActivity(Landroid/content/Intent;)V
 
     return-void
 .end method
