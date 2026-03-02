@@ -548,28 +548,158 @@
     const-string v0, ".project"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+.method private static b(Ljava/lang/String;)Ljava/lang/String;
+    .registers 2
 
+    const-string v0, ".xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_b
+
+    const-string p0, "xml.xml"
+    return-object p0
+
+    :cond_b
+    const-string v0, ".smali"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_16
+
+    const-string p0, "smali.xml"
+    return-object p0
+
+    :cond_16
+    const-string v0, ".html"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-nez v0, :cond_7c
+
+    const-string v0, ".htm"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_27
+
+    goto :goto_7c
+
+    :cond_27
+    const-string v0, ".css"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_32
+
+    const-string p0, "css.xml"
+    return-object p0
+
+    :cond_32
+    const-string v0, ".java"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_3d
+
+    const-string p0, "java.xml"
+    return-object p0
+
+    :cond_3d
+    const-string v0, ".json"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_48
+
+    const-string p0, "json.xml"
+    return-object p0
+
+    :cond_48
+    const-string v0, ".txt"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_53
+
+    const-string p0, "txt.xml"
+    return-object p0
+
+    :cond_53
+    const-string v0, ".js"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_5e
+
+    const-string p0, "js.xml"
+    return-object p0
+
+    :cond_5e
+
+    const-string v0, ".bat"
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_prop
+
+    const-string p0, "txt.xml"
+    return-object p0
+
+    :cond_prop
+    const-string v0, ".properties"
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_gradlew
+
+    const-string p0, "txt.xml"
+    return-object p0
+
+    :cond_gradlew
+    const-string v0, "gradlew"
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, :cond_5e_lanjut
+
+    const-string p0, "txt.xml"
+    return-object p0
+
+    :cond_5e_lanjut
+
+    const-string v0, ".gradle"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+
+    if-nez v0, :cond_79
+
+    const-string v0, ".md"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result v0
+
+    if-nez v0, :cond_79
+
+    const-string v0, ".project"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
     move-result p0
 
-    if-eqz p0, :cond_8
+    if-eqz p0, :cond_77
 
-    goto :goto_0
+    goto :goto_79
 
-    :cond_8
+    :cond_77
     const/4 p0, 0x0
-
     return-object p0
 
-    :cond_9
-    :goto_0
+    :cond_79
+    :goto_79
     const-string p0, "txt.xml"
-
     return-object p0
 
-    :cond_a
-    :goto_1
+    :cond_7c
+    :goto_7c
     const-string p0, "html.xml"
-
     return-object p0
 .end method
 
