@@ -425,7 +425,20 @@
 
     move-result v0
 
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_iml
+
+    const-string p0, "xml.xml"
+
+    return-object p0
+
+    :cond_iml
+    const-string v0, ".iml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
 
     const-string p0, "xml.xml"
 
